@@ -1,0 +1,25 @@
+# conversationHealth/service/app.py: 8
+Flask == 2.0.3
+
+# conversationHealth/src/modeling/trainer.py: 5
+numpy == 1.22.3
+
+# conversationHealth/src/data_processors/data_preprocessing.py: 9
+scikit_learn == 1.0.2
+
+# conversationHealth/src/data_processors/data_loader.py: 8,9,10
+# conversationHealth/src/modeling/modeler.py: 8
+# conversationHealth/src/modeling/trainer.py: 6,7,8,9
+torch == 1.11.0
+
+# conversationHealth/src/data_processors/tokenizer.py: 12
+# conversationHealth/src/modeling/trainer.py: 10,12
+tqdm == 4.63.0
+
+# conversationHealth/service/servable_application/classifier.py: 14
+# conversationHealth/src/data_processors/tokenizer.py: 8
+# conversationHealth/src/modeling/modeler.py: 9
+# conversationHealth/src/modeling/trainer.py: 11
+transformers == 4.17.0
+
+gunicorn == 20.1.0
